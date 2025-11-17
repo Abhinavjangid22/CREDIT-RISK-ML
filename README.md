@@ -22,39 +22,32 @@ This project is an **AI/ML-powered credit risk prediction system** that predicts
 
 ## ⚙️ Installation
 
-1. Clone the repository:
-git clone https://github.com/your-username/Credit-Risk-ML.git
-cd Credit-Risk-ML 
+## 1. Clone the repository:
+- git clone https://github.com/your-username/Credit-Risk-ML.git
+- cd Credit-Risk-ML
 
-2. Create and activate a virtual environment:
-
+## 2. Create and activate a virtual environment:
 python -m venv venv
-# Windows
+### Windows
 venv\Scripts\activate
-# Linux / Mac
+### Linux / Mac
 source venv/bin/activate
 
-
-3. Install dependencies:
+## 3. Install dependencies:
 pip install -r requirements.txt
 
-4. 🚀 Usage
+## 4. 🚀 Usage
 1️⃣ Train the Model
 
 Run the training script (optional, if you want to retrain the model):
-
 python src/train.py
-
-
 This will train the XGBoost model on data/credit_data.csv and save it to model/credit_model.pkl.
 
 2️⃣ Run the Streamlit App
 streamlit run app.py
-
 Open the browser at the URL provided (usually http://localhost:8501) and enter borrower details to see predictions.
 
-🔍 How It Works
-
+## 5. 🔍 How It Works
 Input Features:
 Revolving Credit Utilization (%)
 Age (years)
@@ -72,14 +65,13 @@ Probability of Default (%): Likelihood of default
 Risk Level: Very Low / Low / Medium / High
 Higher probability → higher risk of default.
 
-🧰 Technologies Used
-
+## 6. 🧰 Technologies Used
 Python 3.x
 Pandas, Scikit-learn, XGBoost
 Streamlit for web interface
 Joblib for model serialization
 
-🛠 Future Improvements
+## 7. 🛠 Future Improvements
 
 Add feature importance visualization.
 Deploy on Heroku/AWS/GCP for public access.
