@@ -23,7 +23,6 @@ This project is an **AI/ML-powered credit risk prediction system** that predicts
 ## ⚙️ Installation
 
 1. Clone the repository:
-```bash
 git clone https://github.com/your-username/Credit-Risk-ML.git
 cd Credit-Risk-ML **
 
